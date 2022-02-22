@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+	<link type="text/css" rel="stylesheet" href="/src/css/style.css"/>
+	<!-- <script type="text/javascript" src="PATH_TO_JS"></script>-->
+	<style></style>
+</head>
+
+
+<header><ul>
+<div class="nav">
+	<li><a href="https://www.linkedin.com/in/kayley-bayer/">Contact</a></li>
+	<li><a href="https://en.wikipedia.org/wiki/Cookie_Clicker">Inspiration</a></li>
+</div>
+  </ul></header>
+<body>
+
+
+
+	<!--<div class="bakery" id = "name"></div>-->
+
+	<div class="flex-container">
+
+		<div class="text-info">
+			    <!--ID is showing || onClick= is calling--> 
+
+				<!--Total Donuts/clicks -->
+				<p>Total Donuts: <span id="clicks">0</span></p>
+				<!--Clicks = Donuts-->
+				<p>Donuts Per-Click: <span id="donutsPerClick"></span></p>
+				
+				
+				<br>
+
+				<!--Bakers = Multiplier-->
+				<p>Total bakers hired: <span id="multiplierCount">0</span></p>
+				<!--<button type="button" onClick="bakeDonuts()"> Make Donuts!</button>-->
+			
+				
+				<!--x-->
+				<p>Baker cost: <span id="multiplierCost">1</span></p>
+				<button type="button" onClick="hireBakers()"> Hire more bakers!</button>
+
+				<br><br>
+
+				<!--x-->
+				<p>Total auto: <span id="autoCount">0</span></p>
+				<!--AutoClick = Bots-->
+				<p>Bot cost: <span id="autoCost">5</span></p>
+				<button type="button" onClick="hireBots()"> Make bots!</button>
+                 
+				<p></p>
+				<button onClick="window.location.reload();">Restart</button> </div>
+		
+		<div><img src="/imgs/pnghut_dunkin-donuts-coffee-and-doughnuts-clip-art-donut-box-cartoon.png" onclick="bakeDonuts()" class="donut"></div>
+
+     <div class="right">How to Play<br><br>
+		<br>
+		
+		Click on the donut to make more donuts<br><br>Use donuts to buy<br> Bakers or Bots<br><br> Bots make donuts automatically<br><br> Bakers increase your Donuts per click<br><br> All buyables go up each time you buy
+	 </div>
+	  
+	
+	</div> 
+	
+
+<script src="/src/js/donutShop.js"></script>
+<script src="/src/js/app.js"></script>
+
+
+</body>
+</html>
+
