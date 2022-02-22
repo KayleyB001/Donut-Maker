@@ -1,0 +1,102 @@
+/*Import Font*/
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+/*Change color of icing or background*/
+:root {
+  --icingcolor: #7f4e03;
+  --backgroundcolor: #4dcbd4;
+  --ff-primary:font-family: "Pacifico", cursive;
+  --ff-secondary:font-family: 'Lobster', cursive;
+
+
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+.bakery
+{
+text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+font-size: 3rem;
+font-family: var(--ff-secondary);
+
+
+}
+
+/*Body style*/
+body {
+  background: var(--backgroundcolor);
+  font-family: 'Lobster', cursive;
+}
+
+
+header
+{
+margin-top: -10px;
+}
+
+
+.donut
+{
+  margin-bottom: 30px;
+  margin-top: 30px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.flex-container {
+  display: flex;
+  background-color: rgba(30, 143, 255, 0);
+}
+
+.flex-container > div {
+  background-color: #fff8f8;
+  margin: 10px;
+
+  font-size: 20px;
+}
+
+.text-info
+{ 
+ padding: 10px;
+ text-align: center;
+ width: 50rem;
+}
+
+.right
+{
+ text-align: center;
+ width: 50rem;
+ padding: 10px;
+}
